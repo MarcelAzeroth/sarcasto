@@ -8,10 +8,7 @@ const copy = document.getElementById("copy-button")
 
 const sarcastoTransform = function(e){
     e.preventDefault();
-    if(input.value = " "){
-        output.innerHTML = "pUt SoMeThInG iN sTuPiD"
-        return;
-    }
+   
     let def = input.value.toLowerCase().split("");
     
     for(let i = 0; i < def.length; i++){
