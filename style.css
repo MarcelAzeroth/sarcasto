@@ -1,0 +1,82 @@
+/*======Resets======*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    background-color: rgb(255, 154, 154);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+    border: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.placement{
+    margin: auto;
+    background-color:rgba(0, 255, 8, 0.339);
+    border-radius: 25px;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    max-width: 600px;
+}
+
+input {
+    width: 100%;
+}
+
+input{
+    padding: 1.5em;
+    font-weight: bold;
+}
+
+#output-text{
+    width: 100%;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1.5em;
+}
+
+#copy-button{
+    width: 100%;
+    padding: 1.5em;
+    font-weight: bold;
+}
+
+#copy-button:active{
+    background-color: red;
+}
+
