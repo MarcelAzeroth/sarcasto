@@ -80,3 +80,7 @@ input{
     background-color: red;
 }
 
+#input-button:active{
+    background-color: blue;
+}
+

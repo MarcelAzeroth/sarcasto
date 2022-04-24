@@ -11,7 +11,7 @@ const sarcastoTransform = function(e){
     let def = input.value.toLowerCase().split("");
     
     for(let i = 0; i < def.length; i++){
-        if(i % 2 === 1 ){
+        if(i % 2 === 1){
             def[i] = def[i].toUpperCase();
         }
     }
